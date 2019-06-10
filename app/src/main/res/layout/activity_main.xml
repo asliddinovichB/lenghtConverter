@@ -197,6 +197,7 @@
             android:layout_column="2"
             android:enabled="true"
             android:focusable="false"
+            android:cursorVisible="false"
             android:gravity="right"
             android:inputType="numberDecimal"
             tools:textSize="30sp" />
@@ -225,9 +226,11 @@
             android:layout_column="2"
             android:enabled="true"
             android:focusable="false"
+            android:cursorVisible="false"
             android:gravity="right"
             android:hint="@string/_0"
             android:inputType="numberDecimal"
+            tools:ems="10"
             tools:textSize="30sp" />
 
     </GridLayout>
